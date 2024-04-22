@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quản lí</title>
+    <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1 >Quản lí đồ án tốt nghiệp</h1>
+            <p style="background-color: rgba(154, 182, 207, 0.368);" >Đăng nhập thành công</p>
+            <br>
+            <h2>Thống kê</h2>
+            <div class="phantu">
+                <div class="note" id="o1" style="background-color: rgb(108,158,198);">
+                    <div class="tren">
+                        <h2>27</h2>
+                    <p>Tổng số sinh viên</p>
+                    </div>
+                    <div class="xem">xem</div>
+                </div>
+                <div class="note" id="o2" style="background-color: rgb(220, 20, 103);">
+                    <div class="tren">
+                        <h2>28</h2>
+                    <p>Tổng số lớp</p>
+                    </div>
+                    <div class="xem">xem</div>
+                </div>
+                <div class="note" id="o3" style="background-color: rgb(46, 197, 147);">
+                    <div class="tren">
+                        <h2>4</h2>
+                    <p>Tổng số khoa</p>
+                    </div>
+                    <div class="xem">xem</div>
+                </div>
+                <div class="note" id="o4" style="background-color: rgb(180, 58, 180);">
+                    <div class="tren">
+                        <h2>11</h2>
+                    <p>Tỏng số chuyên ngành</p>
+                    </div>
+                    <div class="xem">xem</div>
+                </div>
+                <div class="note" id="o5" style="background-color: rgb(173, 74, 173);">
+                    <div class="tren">
+                        <h2>11</h2>
+                    <p>Tổng số đồ án</p>
+                    </div>
+                    <div class="xem">xem</div>
+                </div>
+                <div class="note" id="o6" style="background-color: rgb(58, 182, 114);">
+                    <div class="tren">
+                        <h2>10</h2>
+                    <p>Sinh viên đạt</p>
+                    </div>
+                    <div class="xem">xem</div>
+                </div>
+                <div class="note" id="o7" style="background-color: rgb(180, 73, 73);">
+                    <div class="tren">
+                        <h2>1</h2>
+                    <p>Sinh viên chưa đạt</p>
+                    </div>
+                    <div class="xem">xem</div>
+                </div>
+                <div class="note" id="o8" style="background-color: rgb(196, 129, 196);">
+                    <div class="tren">
+                        <h2>23</h2>
+                    <p>Tổng số giáo viên</p>
+                    </div>
+                    <div class="xem">xem</div>
+                </div>
+            
+            
+
+        </div>
+        <div class="menu-container">
+            <ul class="menu" >
+                <li class="trang-chu" ><i class="fa-solid fa-house"></i>Trang chủ</li>
+                <li class="quan li khoa">Quản lí khoa</li>
+                <li class="quan li chuyen nganh">Quản lí chuyên ngành</li>
+                <li class="quan li he dao tao">Quản lí hệ đào tạo </li>
+                <li class="quan li nien khoa">Quản lí niên khóa</li>
+                <li class="quan li lop">Quản lí lớp</li>
+                <li class="quan li giao vien">Quản lí giáo viên </li>
+                <li class="quan li hoi dong">Quản lí hội đồng</li>
+                <li class="quan li sinh vien">Quản lí sinh viên</li>
+                <li class="quan li do an" >Quản lí đồ án</li>
+                <li class="quan li" >Quản lí</li>
+            </ul>
+        </div>
+    </div>
+    
+        
+
+    </div> 
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const trangChuMenuItem = document.querySelector(".trang-chu");
+            const wrapperDiv = document.querySelector(".wrapper");
+    
+            trangChuMenuItem.addEventListener("click", function() {
+                wrapperDiv.style.display = "block";
+            });
+        });
+    </script>
+</body>
+</html>
